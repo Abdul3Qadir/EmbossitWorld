@@ -8,3 +8,4 @@ import './components/acc-details';
 import './components/logout-popup';
 import './components/shop';
 import './components/price-filter';
+import './components/product';
