@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Nunito;
+    src: url("../fonts/Nunito/Nunito-Light.ttf");
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: Rotunda;
+    src: url("../fonts/Rotunda-Font/Rotunda-Medium.otf");
+}
+@font-face {
+    font-family: Rotunda-regular;
+    src: url("../fonts/Rotunda-Font/Rotunda-Regular.otf");
+}
+
+@import 'tailwindcss';
+@import './home-page-css/home.css';
+@import './service-card.css';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+        --font-Nunito:Nunito,"sans-serif";
+        --font-Poppins:Poppins,"sans-serif";
+        --font-Rotunda:Rotunda,"sans-serif";
+        --font-Rotunda:Rotunda-Regular,"sans-serif";
+}
+
+
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 hover:bg-gray-400 transition-colors;
+  }
+}
