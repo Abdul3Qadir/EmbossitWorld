@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <title>Title</title>
+    <title>Boost Your SEO with a Guest Post on Anoboy</title>
 </head>
 <body>
     <x-navbar />
@@ -120,7 +120,7 @@
                         <a href="https://www.facebook.com/embossitworld" class="p-2.5 rounded-xl border border-blue-200 text-blue-400 hover:text-blue-600 hover:border-blue-300 transition shadow-sm" aria-label="Share via Facebook">
                             <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
                         </a>
-                        <a href="https://wa.me/923133855347" target="_blank" class="p-2.5 bg-white rounded-xl border border-green-200 transition shadow-sm" aria-label="Share via Whatsapp">
+                        <a href="https://wa.me/923133855347" target="_blank" class="p-2.5 bg-white rounded-xl border border-green-200 transition hover:border-green-300 shadow-sm" aria-label="Share via Whatsapp">
                             <svg xmlns="http://www.w3.org/2000/svg"width="17" height="17" viewBox="0 0 24 24" fill="none"><path fill="green" d="M20.52 3.48A11.91 11.91 0 0 0 12.01 0C5.38 0 .01 5.37.01 12c0 2.11.55 4.17 1.6 5.99L0 24l6.17-1.62A11.94 11.94 0 0 0 12.01 24c6.63 0 12-5.37 12-12 0-3.2-1.25-6.22-3.49-8.52zM12 21.8c-1.8 0-3.56-.48-5.09-1.39l-.36-.21-3.66.96.98-3.56-.23-.37A9.77 9.77 0 0 1 2.2 12C2.2 6.6 6.6 2.2 12 2.2S21.8 6.6 21.8 12 17.4 21.8 12 21.8zm5.44-7.27c-.3-.15-1.76-.87-2.03-.97-.27-.1-.46-.15-.66.15s-.76.97-.93 1.17c-.17.2-.34.22-.64.07-.3-.15-1.25-.46-2.38-1.46-.88-.78-1.48-1.74-1.65-2.04-.17-.3-.02-.46.13-.61.14-.14.3-.36.45-.54.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.66-1.6-.9-2.2-.23-.55-.47-.47-.66-.48h-.56c-.2 0-.52.07-.8.37-.27.3-1.05 1.03-1.05 2.52s1.07 2.93 1.22 3.13c.15.2 2.1 3.2 5.09 4.48.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.08 1.76-.72 2.01-1.42.25-.7.25-1.3.17-1.42-.08-.12-.27-.2-.57-.35z"/></svg>
                         </a>
                     </div>
