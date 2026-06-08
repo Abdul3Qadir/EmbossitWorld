@@ -1,4 +1,5 @@
 <div class="group w-full bg-white rounded-xl shadow-sm border border-gray-100 p-3 transition-all duration-300 hover:shadow-md flex flex-col h-full ">
+    <a href="/product" target="_blank">  
   <div class="relative rounded-xl overflow-hidden aspect-square bg-[#2482ee] mb-3 group cursor-pointer">
     <img src="images/seo-post-9.jpg" alt="Google Map Citations" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
     <div class="absolute inset-0 bg-black/8 opacity-0 group-hover:opacity-100 transition-opacity"></div>
@@ -10,11 +11,14 @@
       </button>
     </div>
   </div>
+</a>
   
   <div class="flex flex-col grow">
+    <a href="/product" target="_blank">
     <h3 class="text-gray-800 text-sm md:text-[15px] font-bold font-Nunito mb-2 cursor-pointer">
       Boost Your Local SEO And Google Ranking with Google Map Citations
     </h3>
+    </a>
     
     <div class="mb-2">
       <x-rating-stars />
