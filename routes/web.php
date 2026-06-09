@@ -21,6 +21,7 @@ Route::get('/refund-policy', fn () => view('refund-policy'));
 Route::get('/terms-and-condition', fn () => view('terms-condition'));
 Route::get('/checkout', fn () => view('checkout'));
 Route::get('/product', fn () => view('product'));
+Route::get('/my-account', fn () => view('account'));
 
 /*
 |--------------------------------------------------------------------------
