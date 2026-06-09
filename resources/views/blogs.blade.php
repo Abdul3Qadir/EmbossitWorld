@@ -7,14 +7,14 @@
     <title>Blogs - Emboss It World</title>
 </head>
 <body>
-    <x-navbar />
+    @include('pages-components.navbar')
 
 <div class="bg-white min-h-screen py-12 px-4 md:px-10">
     <div class="max-w-6xl mx-auto flex flex-col lg:flex-row gap-10">
         
         <main class="w-full lg:w-3/4 space-y-10">
 
-        <x-articles />
+        @include('pages-components.articles')
             <div class="flex justify-center items-center gap-2 pt-8 font-sans">
                 <button class="px-4 py-2 border border-gray-200 text-gray-500 rounded hover:bg-gray-200 text-sm transition-colors cursor-pointer">Previous</button>
                 <button class="w-10 h-10 flex items-center justify-center bg-blue-600 text-white rounded text-sm cursor-pointer">1</button>
@@ -55,8 +55,8 @@
     </div>
 </div>
     
-    <x-cta />
-    <x-back-to-top />
-    <x-footer />
+    @include('pages-components.cta')
+    @include('pages-components.back-to-top')
+    @include('pages-components.footer')
 </body>
 </html>

@@ -3,10 +3,10 @@
             Related Products
         </h2>
         <div class="grid grid-cols-1 min-[320px]:grid-cols-2 min-[580px]:grid-cols-3 min-[800px]:grid-cols-4 min-[1020px]:grid-cols-3 min-[1200px]:grid-cols-4 gap-6">
-            <x-service-card />
-            <x-service-card />
-            <x-service-card />
-            <x-service-card />
-            <x-service-card />
+            @include('pages-components.service-card')
+            @include('pages-components.service-card')
+            @include('pages-components.service-card')
+            @include('pages-components.service-card')
+            @include('pages-components.service-card')
         </div>
     </section>

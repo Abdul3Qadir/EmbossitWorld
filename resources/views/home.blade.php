@@ -7,7 +7,7 @@
   <title>Embossitworld-Digital Marketing Agency</title>
 </head>
 <body class="selection:bg-[#6ca0f0]">
-  <x-navbar />
+  @include('pages-components.navbar')
   <div class="m-3 mt-0 max-[990px]:m-4 max-[990px]:mt-0">
   <main rel="preload" as="image" style="background-image: url('/images/home-imgs/hero-banner.jpg')" class="flex flex-col justify-center items-center gap-4 font-Rotunda w-full 
              rounded-3xl bg-center bg-cover bg-no-repeat py-8 px-4
@@ -30,7 +30,7 @@
   </main>
   </div>
 
-  <x-carousel/>
+  @include('pages-components.carousel')
 
   
 <section id="Commitment-Section" class="py-12 md:py-15 px-4">
@@ -84,24 +84,24 @@
   </div>
 </section>
 
-<x-service-carousel />
+@include('pages-components.service-carousel')
 
-<x-solution-section />
+@include('pages-components.solution-section')
 
-<x-unique-in-market-section />
+@include('pages-components.unique-in-market-section')
 
-<x-top-selling-products />
+@include('pages-components.top-selling-products')
 
-<x-since-2010 />
+@include('pages-components.since-2010')
 
-<x-testimonials />
+@include('pages-components.testimonials')
 
-<x-contact-section />
+@include('pages-components.contact-section')
 
-<x-cta />
+@include('pages-components.cta')
 
-<x-back-to-top />
+@include('pages-components.back-to-top')
 
-  <x-footer />
+  @include('pages-components.footer')
 </body>
 </html>

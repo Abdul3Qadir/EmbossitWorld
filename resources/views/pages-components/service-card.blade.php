@@ -21,7 +21,7 @@
     </a>
     
     <div class="mb-2">
-      <x-rating-stars />
+      @include('pages-components.rating-stars')
     </div>
     
     <p class="text-sm min-[470px]:text-base font-Poppins mb-4">

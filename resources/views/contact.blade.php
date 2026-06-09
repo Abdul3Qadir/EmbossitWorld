@@ -7,7 +7,7 @@
     <title>Contact Us - Emboss It World</title>
 </head>
 <body>
-    <x-navbar />
+    @include('pages-components.navbar')
 
     <section class="min-h-screen bg-white flex items-center justify-center p-6">
     <div class="w-full max-w-8xl flex flex-col">
@@ -31,9 +31,9 @@
                 </div>
             </div>
         </div>
-        <x-contact-section />
+        @include('pages-components.contact-section')
 </section>
-    <x-cta />
-    <x-footer />
+    @include('pages-components.cta')
+    @include('pages-components.footer')
 </body>
 </html>

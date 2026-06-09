@@ -7,8 +7,8 @@
     <title>Cart - Emboss It World</title>
 </head>
     <body>
-        <x-navbar />
-        <x-cart-top-section />
+        @include('pages-components.navbar')
+        @include('pages-components.cart-top-section')
 
         <div class="min-h-80 pt-10 pb-30 px-4 sm:px-6 lg:px-8">
   <div class="max-w-7xl mx-auto">
@@ -123,7 +123,7 @@
   </div>
 </div>
     
-        <x-cta />
-        <x-footer />
+        @include('pages-components.cta')
+        @include('pages-components.footer')
     </body>
 </html>

@@ -16,7 +16,7 @@
             Account Details
         </button>
     </div>
-    <x-feedback />
+    @include('pages-components.feedback')
 </div>
 
 

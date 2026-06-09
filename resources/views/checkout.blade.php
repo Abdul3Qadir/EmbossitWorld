@@ -7,8 +7,8 @@
     <title>CheckOut - Emboss It World</title>
 </head>
 <body>
-    <x-navbar />
-    <x-cart-top-section />
+    @include('pages-components.navbar')
+    @include('pages-components.cart-top-section')
     
     <main class="max-w-7xl mx-auto px-4 py-10 font-Nunito">
     <div class="grid grid-cols-1 lg:grid-cols-5 gap-12">
@@ -42,7 +42,7 @@
                 <h2 class="text-2xl font-bold mb-6" style="font-family: 'Rotunda', serif;">Billing Details</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                     
-                <x-form />
+                @include('pages-components.form')
 
         <div class="lg:col-span-2">
             <div class="border-2 border-gray-900 p-6 sticky top-6 bg-white">
@@ -85,7 +85,7 @@
     </div>
 </main>
 
-    <x-cta />
-    <x-footer />
+    @include('pages-components.cta')
+    @include('pages-components.footer')
 </body>
 </html>

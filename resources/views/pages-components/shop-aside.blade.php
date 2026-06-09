@@ -35,7 +35,7 @@
 <aside id="sidebar" class="fixed inset-y-0 left-0 min-[1020px]:w-1/4 z-50 w-[85%] max-w-[320px] bg-white shadow-2xl transform -translate-x-full transition-transform duration-300 ease-in-out min-[1020px]:relative min-[1020px]:translate-x-0 min-[1020px]:z-0 min-[1020px]:shadow-none min-[1020px]:bg-transparent overflow-y-auto custom-scrollbar p-4 pt-8 min-[1020px]:p-0 space-y-4">
     
 
-        <x-services-cat />
+        @include('pages-components.services-cat')
 
     <div class="bg-gray-100 rounded shadow-sm border border-gray-200 overflow-hidden">
     <button onclick="toggleSection('price-content', 'price-icon')" class="w-full flex items-center justify-between p-5 transition-colors">

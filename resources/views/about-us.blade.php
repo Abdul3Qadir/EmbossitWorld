@@ -7,7 +7,7 @@
     <title>About Us - Emboss It World</title>
 </head>
 <body>
-    <x-navbar />
+    @include('pages-components.navbar')
     <main class="bg-white font-Rotunda-Regular text-[#333]">
     <section class="relative mx-5 px-6 py-20 text-center bg-gray-100 rounded-3xl">
     
@@ -176,12 +176,12 @@
     </section>
 </main>
 
-    <x-contact-section />
+    @include('pages-components.contact-section')
 
-    <x-cta />
+    @include('pages-components.cta')
 
-    <x-back-to-top />
+    @include('pages-components.back-to-top')
 
-    <x-footer />
+    @include('pages-components.footer')
 </body>
 </html>

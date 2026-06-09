@@ -7,7 +7,7 @@
     <title>Boost Your SEO with a Guest Post on Anoboy</title>
 </head>
 <body>
-    <x-navbar />
+    @include('pages-components.navbar')
     <main class=" flex justify-center sm:py-12 py-5">
     <div class="flex flex-col bg-white overflow-hidden w-full max-w-7xl">
 
@@ -131,11 +131,11 @@
     </div>
 </main>
 
-    <x-reviews />
-    <x-related-products />
-    <x-cta />
-    <x-back-to-top />
-    <x-footer />
+    @include('pages-components.reviews')
+    @include('pages-components.related-products')
+    @include('pages-components.cta')
+    @include('pages-components.back-to-top')
+    @include('pages-components.footer')
 
 </body>
 </html>

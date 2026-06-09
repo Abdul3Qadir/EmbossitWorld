@@ -7,11 +7,11 @@
     <title>Our Services - Emboss It World</title>
 </head>
 <body>
-    <x-navbar />
-    <x-service-cat-carousel />
+    @include('pages-components.navbar')
+    @include('pages-components.service-cat-carousel')
 <div class="min-h-screen p-4 md:p-8 font-sans text-slate-800">
     <div class="max-w-7xl mx-auto flex flex-row gap-8">
-    <x-shop-aside />
+    @include('pages-components.shop-aside')
         <section class="w-full min-[1020px]:w-3/4">
             <div class="flex flex-row justify-between items-center pb-5 border-gray-200 border-b m mb-5 gap-4">
                 <div class="flex bg-white p-2 rounded border border-gray-200">
@@ -34,14 +34,14 @@
             </div>
             <div class="grid grid-cols-1 min-[320px]:grid-cols-2 min-[580px]:grid-cols-3 min-[800px]:grid-cols-4 min-[1020px]:grid-cols-3 min-[1200px]:grid-cols-4 gap-4">
                 
-                <x-service-card />
-                <x-service-card />
-                <x-service-card />
-                <x-service-card />
-                <x-service-card />
-                <x-service-card />
-                <x-service-card />
-                <x-service-card />
+                @include('pages-components.service-card')
+                @include('pages-components.service-card')
+                @include('pages-components.service-card')
+                @include('pages-components.service-card')
+                @include('pages-components.service-card')
+                @include('pages-components.service-card')
+                @include('pages-components.service-card')
+                @include('pages-components.service-card')
 
             </div>
 
@@ -63,9 +63,9 @@
 </div>
 
 
-<x-cta />
-<x-back-to-top />
-<x-footer />
+@include('pages-components.cta')
+@include('pages-components.back-to-top')
+@include('pages-components.footer')
 
 
 </body>

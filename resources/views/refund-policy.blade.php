@@ -7,7 +7,7 @@
     <title>Refund Policy - Emboss It World</title>
 </head>
 <body>
-    <x-navbar />
+    @include('pages-components.navbar')
     
     <div class="bg-white text-gray-800 antialiased font-sans px-4 py-12">
         <div class="max-w-5xl mx-auto">
@@ -150,8 +150,8 @@
         </div>
     </div>
 
-    <x-back-to-top />
-    <x-cta />
-    <x-footer />
+    @include('pages-components.back-to-top')
+    @include('pages-components.cta')
+    @include('pages-components.footer')
 </body>
 </html>

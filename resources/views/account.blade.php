@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <x-navbar />
+    @include('pages-components.navbar')
 
     <div class="font-sans text-gray-800">
         
@@ -71,20 +71,20 @@
                 </aside>
 
                 <main class="flex-1 min-w-0 overflow-hidden">
-                    <x-dashboard />
-                    <x-orders />
-                    <x-address />
-                    <x-acc-details />
-                    <x-wishlist />
-                    <x-logout-popup />
+                    @include('pages-components.dashboard')
+                    @include('pages-components.orders')
+                    @include('pages-components.address')
+                    @include('pages-components.acc-details')
+                    @include('pages-components.wishlist')
+                    @include('pages-components.logout-popup')
                     </main>
 
             </div>
         </div>
     </div>
 
-    <x-cta />
-    <x-footer />
+    @include('pages-components.cta')
+    @include('pages-components.footer')
 
 </body>
 </html>
